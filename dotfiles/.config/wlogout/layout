@@ -1,0 +1,30 @@
+{
+    "label" : "lock",
+    "action" : "qdbus org.freedesktop.ScreenSaver /ScreenSaver Lock",
+    "text" : "Lock",
+    "keybind" : "l"
+}
+{
+    "label" : "logout",
+    "action" : "qdbus org.kde.Shutdown /Shutdown org.kde.Shutdown.logout",
+    "text" : "Log Out",
+    "keybind" : "e"
+}
+{
+    "label" : "suspend",
+    "action" : "qdbus org.kde.kglobalaccel /component/org_kde_powerdevil invokeShortcut 'Sleep'",
+    "text" : "Suspend",
+    "keybind" : "u"
+}
+{
+    "label" : "reboot",
+    "action" : "reboot",
+    "text" : "Restart",
+    "keybind" : "r"
+}
+{
+    "label" : "shutdown",
+    "action" : "qdbus org.kde.Shutdown /Shutdown logoutAndShutdown",
+    "text" : "Power Off",
+    "keybind" : "s"
+}
