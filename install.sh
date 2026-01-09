@@ -20,3 +20,4 @@ sh setup/_ml4w-apps.sh
 echo "Installing configs"
 echo "Please dont cancel during this"
 cp -rf dotfiles/.config ~/.config
+echo "Automatic installation done please add the launch.sh from waybar in your config files in autostart login scripts and the logout.sh in the autostart logout scripts"
