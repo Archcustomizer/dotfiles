@@ -1,15 +1,22 @@
 echo "Installing in 3..."
+sleep 1
 echo "Installing in 2..."
+sleep 1
 echo "Installing in 1..."
+sleep 1
 echo "Installing dependecies"
-sh dotfiles/dependecies.sh
-sh dotfiles/_prebuilt.sh
+sh setup/dependecies.sh
+sh setup/_prebuilt.sh
 
 echo "Installing cursors"
-sh dotfiles/_cursors.sh
+sh setup/_cursors.sh
 echo "Installing Fonts"
-sh dotfiles/_fonts.sh
+sh setup/_fonts.sh
 echo "Installing icons"
-sh dotfiles/_icons.sh
+sh setup/_icons.sh
 echo "Installing apps"
-sh dotfiles/_ml4w-apps.sh
+sh setup/_ml4w-apps.sh
+
+echo "Installing configs"
+echo "Please dont cancel during this"
+cp -rf dotfiles/.config ~/.config
