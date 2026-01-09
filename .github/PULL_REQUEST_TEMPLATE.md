@@ -36,6 +36,9 @@ Please ensure your pull request meets the following requirements:
 
 ### Screenshots 
 
+![Alt text for accessibility](path/to/your/screenshot.png)
+
+
 <!-- Add any screenshots to help explain your changes or to demonstrate the new feature. -->
 
 ### Related Issues
