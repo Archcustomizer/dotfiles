@@ -1,30 +1,68 @@
-#!/usr/bin/env bash
+echo "Please make sure you have yay before you continue"
 
-# --------------------------------------------------------------
-# Library
-# --------------------------------------------------------------
+read -p "Press enter to continue"
 
-source _lib.sh
-
-# --------------------------------------------------------------
-# Header
-# --------------------------------------------------------------
-
-clear
-echo -e "${GREEN}"
-cat <<"EOF"
-   ____    __          
-  / __/__ / /___ _____ 
- _\ \/ -_) __/ // / _ \
-/___/\__/\__/\_,_/ .__/
-                /_/    
-EOF
-echo "ML4W Dotfiles for Hyprland: Dependencies"
-echo -e "${NONE}"
-echo "Your distribution isn't directly supported by this setup script."
-echo
-echo "But you can install the dependencies manually and continue the installation with the Dotfiles Installer."
-echo 
-echo "You can find the list of dependencies here:"
-echo "https://mylinuxforwork.github.io/dotfiles/getting-started/dependencies"
-echo
+yay -S wget \
+unzip \
+gum \
+rsync \
+git \
+figlet \
+xdg-user-dirs \    
+hyprland \
+hyprpaper \
+hyprlock \
+hypridle \
+hyprpicker \
+xdg-desktop-portal-gtk \
+xdg-desktop-portal-hyprland \
+libnotify \
+kitty \
+qt5-wayland \
+qt6-wayland \
+fastfetch \
+eza \
+python-pip \
+python-gobject \
+python-screeninfo \
+tumbler \
+brightnessctl \
+nm-connection-editor \
+network-manager-applet \
+imagemagick \
+jq \
+xclip \
+kitty \
+neovim \
+htop \
+blueman \
+grim \
+slurp \
+cliphist \
+nwg-look \
+qt6ct \
+waybar \
+rofi \
+polkit-gnome \
+zsh \
+zsh-completions \
+fzf \
+pavucontrol \
+papirus-icon-theme \
+breeze \
+flatpak \
+swaync \
+gvfs \
+wlogout \
+waypaper \
+grimblast-git \
+bibata-cursor-theme \
+pacseek \
+otf-font-awesome \
+ttf-fira-sans \
+ttf-fira-code \
+ttf-firacode-nerd \
+nwg-dock-hyprland \
+power-profiles-daemon \
+python-pywalfox \
+vlc
