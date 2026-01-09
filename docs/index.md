@@ -37,12 +37,6 @@ metaTitle: "The ML4W Dotfiles for KDE Plasma"
 description: An advanced and full-featured configuration for KDE Plama including an easy to use installation procedure with the Dotfiles Installer script and full support for for Arch Linux and openSuse (Fedora with limitations).
 ---
 
-<img
-  src="/dotfiles2995.jpg"
-  alt="preview"
-  style="max-width: 900px; width: 100%; border-radius: 12px; margin: 2rem auto; display: block;"
-/>
-
 <div align="center">
 
 
