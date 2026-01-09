@@ -2,7 +2,7 @@
 
 An advanced configuration of KDE Plasma for Arch Linux based distributions. Full featured desktop environment based on the KDE Plasma with adaptive material color themes based on the selected wallpaper for all components. Including a comprehensive selection of apps with the ability to customize the configuration to your personal needs.
 
-![dotfiles2995](https://github.com/user-attachments/assets/fb3e92ee-ea5a-4950-b1aa-b074698b17fe)
+![dotfiles2995](./.github/Screenshot_20260109_193215.png)
 
 ## Installation and Documentation
 Required: Putting launch.sh from waybar in you autostart login scripts and the logout.sh from waybar in your autostart logout scripts in system config and also making the kde plasma task manager/taskbar autohide
