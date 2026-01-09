@@ -9,8 +9,9 @@ Required: Putting launch.sh from waybar in you autostart login scripts and the l
 
 Make a backup of your .config folder and then run this:
 ``` bash
-cp -rf dotfiles/.config ~/.config
+sh install.sh
 ```
+
 
 Unfortunately theres no documentation
 
