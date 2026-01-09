@@ -2,7 +2,7 @@ echo "Please make sure you have yay before you continue"
 
 read -p "Press enter to continue"
 
-yay -S wget \
+yay -S --noconfirm wget \
 unzip \
 gum \
 rsync \
