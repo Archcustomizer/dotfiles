@@ -1,6 +1,6 @@
 # ML4W Dotfiles for KDE Plasma
 
-An advanced configuration of KDE Plasma for Arch Linux based distributions. Full featured desktop environment based on the KDE Plasma with adaptive material color themes based on the selected wallpaper for all components. Including a comprehensive selection of apps with the ability to customize the configuration to your personal needs.
+An addition of waybar and ML4W apps for kde plasma
 
 ![dotfiles2995](./.github/Screenshot_20260109_193215.png)
 
