@@ -89,3 +89,4 @@ vlc
 
 
 ## Credits to linuxforwork for making the original project
+[Original Repo](https://github.com/linuxforwork/dotfiles)
