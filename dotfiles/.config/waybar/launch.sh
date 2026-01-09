@@ -9,7 +9,10 @@
 # -----------------------------------------------------
 # Prevent duplicate launches: only the first parallel
 # invocation proceeds; all others exit immediately.
+# Changing the path below changes the wallpaper image
 # -----------------------------------------------------
+plasma-apply-wallpaperimage ~/.config/waybar/foggy-mountain01.jpg
+
 
 exec 200>/tmp/waybar-launch.lock
 flock -n 200 || exit 0
