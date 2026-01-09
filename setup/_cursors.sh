@@ -57,6 +57,6 @@ if [ -d ~/.local/share/icons/ArcStarry-cursors ]; then
     rm -rf ~/.local/share/icons/ArcStarry-cursors
 fi
 
-unzip $SCRIPT_DIR/cursors/ArcAurora-cursors.zip -d ~/.local/share/icons/
-unzip $SCRIPT_DIR/cursors/ArcDusk-cursors.zip -d ~/.local/share/icons/
-unzip $SCRIPT_DIR/cursors/ArcStarry-cursors.zip -d ~/.local/share/icons/
+unzip dotfiles/cursors/ArcAurora-cursors.zip -d ~/.local/share/icons/
+unzip dotfiles/cursors/ArcDusk-cursors.zip -d ~/.local/share/icons/
+unzip dotfiles/cursors/ArcStarry-cursors.zip -d ~/.local/share/icons/
