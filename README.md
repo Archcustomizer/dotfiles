@@ -1,6 +1,6 @@
-# ML4W Dotfiles for Hyprland
+# ML4W Dotfiles for KDE Plasma
 
-An advanced configuration of Hyprland for Arch Linux based distributions. Full featured desktop environment based on the dynamic tiling window manager Hyprland with adaptive material color themes based on the selected wallpaper for all components. Including a comprehensive selection of apps with the ability to customize the configuration to your personal needs.
+An advanced configuration of KDE Plasma for Arch Linux based distributions. Full featured desktop environment based on the KDE Plasma with adaptive material color themes based on the selected wallpaper for all components. Including a comprehensive selection of apps with the ability to customize the configuration to your personal needs.
 
 ![dotfiles2995](https://github.com/user-attachments/assets/fb3e92ee-ea5a-4950-b1aa-b074698b17fe)
 
