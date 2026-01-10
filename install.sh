@@ -1,3 +1,5 @@
+#!/bin/sh
+# This is a custom installation file for ml4w
 echo "Installing in 3..."
 sleep 1
 echo "Installing in 2..."
